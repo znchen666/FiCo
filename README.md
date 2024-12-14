@@ -35,6 +35,8 @@ Path/To/Dataset
       ├── bottle
       ├── ......
 ├── mvtec_gaussian_noise
+      ├── bottle
+      ├── ......
 ```
 Modify the file path in the scripts.
 
