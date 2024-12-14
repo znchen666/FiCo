@@ -2,7 +2,6 @@ import torch
 from dataset import get_data_transforms
 from resnet_TTA import  wide_resnet50_2
 from de_resnet_new import  de_wide_resnet50_2
-from de_resnet_ori import MultiProjectionLayer
 from dataset import MVTecDataset, MVTecDatasetOOD
 from test import  evaluation_ATTA
 import os
