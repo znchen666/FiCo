@@ -110,7 +110,7 @@ def train(_class_):
 
             loss_mse = loss_fucntion_l2(a_normal, b_normal) + loss_fucntion_l2(a_augmix, b_augmix) + loss_fucntion_l2(a_gray, b_gray)
 
-            loss_last = loss_last_ori + 1 * loss_last_nor + loss_mse * 0.02
+            loss_last = loss_last_ori + loss_last_nor * 1 + loss_mse * 0.02
 
             loss_normal = loss_fucntion(inputs_normal, outputs_normal) \
                           + 0.05 * (loss_fucntion(inputs_augmix, outputs_augmix)) \
