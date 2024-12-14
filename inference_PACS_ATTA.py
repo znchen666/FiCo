@@ -1,7 +1,7 @@
 import torch
 from dataset import PACSDatasetOOD
 from resnet_TTA import wide_resnet50_2
-from de_resnet import de_wide_resnet50_2
+from de_resnet_new import de_wide_resnet50_2
 import torchvision.transforms as transforms
 from test import evaluation_ATTA
 import os
