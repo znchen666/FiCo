@@ -15,6 +15,7 @@ conda env create -f environment.yml
 
 ```
 python generate_corrupted_mvtec.py
+
 python generate_corrupted_cifar10.py
 ```
 
@@ -22,16 +23,16 @@ Arrange data with the following structure (e.g. MVTec dataset):
 ```
 Path/To/Dataset
 ├── mvtec
-      ├── cat
+      ├── bottle
       ├── ......
 ├── mvtec_brightness
-      ├── cat
+      ├── bottle
       ├── ......
 ├── mvtec_contrast
-      ├── cat
+      ├── bottle
       ├── ......
 ├── mvtec_defocus_blur
-      ├── cat
+      ├── bottle
       ├── ......
 ├── mvtec_gaussian_noise
 ```
