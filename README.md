@@ -1,5 +1,5 @@
 ## [AAAI2025] Filter or Compensate: Towards Invariant Representation from Distribution Shift for Anomaly Detection
-[Link to our paper](arxiv链接)
+[Link to our paper](https://arxiv.org/abs/2412.10115)
 ![image](https://github.com/user-attachments/assets/d2680f1c-250b-447c-acb9-1a2cad28cbda)
 
 ## Requirements
@@ -57,11 +57,10 @@ We thank the authors from [ADShift](https://github.com/mala-lab/ADShift) for ref
 
 ## Citation
 ```
-@inproceedings{chen2024practicaldg,
-  title={PracticalDG: Perturbation Distillation on Vision-Language Models for Hybrid Domain Generalization},
-  author={Chen, Zining and Wang, Weiqiu and Zhao, Zhicheng and Su, Fei and Men, Aidong and Meng, Hongying},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={23501--23511},
+@article{chen2024filter,
+  title={Filter or Compensate: Towards Invariant Representation from Distribution Shift for Anomaly Detection},
+  author={Chen, Zining and Luo, Xingshuang and Wang, Weiqiu and Zhao, Zhicheng and Su, Fei and Men, Aidong},
+  journal={arXiv preprint arXiv:2412.10115},
   year={2024}
 }
 ```
